@@ -20,7 +20,7 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container">
 
-        <a class="navbar-brand" href="../">
+        <a class="navbar-brand" href="../index.html">
             <div class="brand-logo">
                 <i class="bi bi-gear-wide-connected"></i>
             </div>
@@ -39,13 +39,13 @@
         <div class="collapse navbar-collapse" id="mainNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link " href="../">Home</a>
+                    <a class="nav-link " href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="../about/">About Us</a>
+                    <a class="nav-link " href="../about/index.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="../services/">Services</a>
+                    <a class="nav-link " href="../services/index.html">Services</a>
                 </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link " href="../projects/">Projects</a>
@@ -67,7 +67,7 @@
         <h1>Contact Us</h1>
         <nav aria-label="breadcrumb" class="mt-2">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="../">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
                 <li class="breadcrumb-item active">Contact</li>
             </ol>
         </nav>
@@ -94,24 +94,31 @@
                 </p>
 
                                 <div class="contact-info-item">
+                    <div class="icon-box sm"><i class="bi bi-geo-alt-fill"></i></div>
+                    <div class="contact-detail">
+                        <h5>Office</h5>
+                        <p>10705 W Colfax Ave, Suite C5B, Lakewood, CO, 80215, USA</p>
+                    </div>
+                </div>
+                                <div class="contact-info-item">
                     <div class="icon-box sm"><i class="bi bi-telephone-fill"></i></div>
                     <div class="contact-detail">
                         <h5>Phone</h5>
-                        <p><a href="tel:+17207207200" style="color:var(--color-text-light)">+1 (720) 720-7200</a></p>
+                        <p><a href="tel:+17207259153" style="color:var(--color-text-light)">+1 (720) 725-9153</a></p>
                     </div>
                 </div>
                                 <div class="contact-info-item">
                     <div class="icon-box sm"><i class="bi bi-envelope-fill"></i></div>
                     <div class="contact-detail">
                         <h5>Email</h5>
-                        <p><a href="mailto:info@MavexEngineering.com" style="color:var(--color-secondary)">info@MavexEngineering.com</a></p>
+                        <p><a href="mailto:Mavex Engineering<info@MavexEngineering.com>" style="color:var(--color-secondary)">info@MavexEngineering.com</a></p>
                     </div>
                 </div>
                                 <div class="contact-info-item">
                     <div class="icon-box sm"><i class="bi bi-clock-fill"></i></div>
                     <div class="contact-detail">
                         <h5>Business Hours</h5>
-                        <p>Monday – Friday: 7:30 AM – 5:30 PM MT<br>Saturday – Sunday: Closed</p>
+                        <p>Monday – Friday: 9:00 AM – 5:00 PM MT<br>Saturday – Sunday: Closed</p>
                     </div>
                 </div>
                 
@@ -166,7 +173,7 @@
                             <div class="col-sm-6">
                                 <label class="form-label" for="phone">Phone Number</label>
                                 <input type="tel" class="form-control" id="phone"
-                                       placeholder="+1 (720) 555-0100">
+                                       placeholder="+1 (720) 720-7200">
                             </div>
 
                             <div class="col-sm-6">
@@ -224,7 +231,6 @@
     </div>
 </section>
 
-<hr class="section-sep">
 
 <!-- =============================================
      MAP PLACEHOLDER
@@ -291,14 +297,14 @@ function sendMail(e) {
         : '[Mavex Web] ' + subject;
 
     window.location.href =
-        'mailto:info@MavexEngineering.com'
+        'mailto:Mavex Engineering<info@MavexEngineering.com>'
         + '?subject=' + encodeURIComponent(emailSubject)
         + '&body='    + encodeURIComponent(body);
 
     document.getElementById('formMsg').innerHTML =
         '<div class="alert-success-custom"><i class="bi bi-check-circle me-2"></i>'
         + 'Your email client should open now. If it does not, email us directly at '
-        + '<a href="mailto:info@MavexEngineering.com">info@MavexEngineering.com</a>.</div>';
+        + '<a href="mailto:Mavex Engineering<info@MavexEngineering.com>">info@MavexEngineering.com</a>.</div>';
 }
 </script>
 
@@ -332,9 +338,9 @@ function sendMail(e) {
             <div class="col-lg-2 col-sm-6">
                 <h6 class="footer-heading">Quick Links</h6>
                 <ul class="footer-links">
-                    <li><a href="../">Home</a></li>
-                    <li><a href="../about/">About Us</a></li>
-                    <li><a href="../services/">Services</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about/index.html">About Us</a></li>
+                    <li><a href="../services/index.html">Services</a></li>
                     <!-- <li><a href="../projects/">Projects</a></li> -->
                     <!-- <li><a href="../careers/">Careers</a></li> -->
                     <li><a href="index.html">Contact</a></li>
@@ -345,13 +351,13 @@ function sendMail(e) {
             <div class="col-lg-3 col-sm-6">
                 <h6 class="footer-heading">Our Services</h6>
                 <ul class="footer-links">
-                    <li><a href="../services/#0">Chemical Systems Design</a></li>
-                    <li><a href="../services/#1">Drawings & Documentation</a></li>
-                    <li><a href="../services/#2">Chemical Parts, Tubing & Piping</a></li>
-                    <li><a href="../services/#3">Specialty Component Solutions</a></li>
-                    <li><a href="../services/#4">Double-Containment System Solutions</a></li>
-                    <li><a href="../services/#5">Skid Design & Build Assistance</a></li>
-                    <li><a href="../services/#6">Commissioning Support</a></li>
+                    <li><a href="../services/index.html#0">Chemical Systems Design</a></li>
+                    <li><a href="../services/index.html#1">Drawings & Documentation</a></li>
+                    <li><a href="../services/index.html#2">Chemical Parts, Tubing & Piping</a></li>
+                    <li><a href="../services/index.html#3">Specialty Component Solutions</a></li>
+                    <li><a href="../services/index.html#4">Double-Containment System Solutions</a></li>
+                    <li><a href="../services/index.html#5">Skid Design & Build Assistance</a></li>
+                    <li><a href="../services/index.html#6">Commissioning Support</a></li>
                 </ul>
             </div>
 
@@ -359,13 +365,15 @@ function sendMail(e) {
             <div class="col-lg-3">
                 <h6 class="footer-heading">Contact Us</h6>
                 <div class="footer-contact">
-                    
+                    <strong><i class="bi bi-geo-alt me-1"></i>Headquarters</strong>
+                    10705 W Colfax Ave, Suite C5B<br>
+                    Lakewood, CO, 80215, USA
                     <strong><i class="bi bi-telephone me-1"></i>Phone</strong>
-                    <a href="tel:+1 (720) 720-7200">+1 (720) 720-7200</a>
+                    <a href="tel:+1 (720) 725-9153">+1 (720) 725-9153</a>
                     <strong><i class="bi bi-envelope me-1"></i>Email</strong>
-                    <a href="mailto:info@MavexEngineering.com">info@MavexEngineering.com</a>
+                    <a href="mailto:Mavex Engineering<info@MavexEngineering.com>">info@MavexEngineering.com</a>
                     <strong><i class="bi bi-clock me-1"></i>Hours</strong>
-                    Mon – Fri: 7:30 AM – 5:30 PM MT
+                    Mon – Fri: 9:00 AM – 5:00 PM MT
                 </div>
             </div>
 
